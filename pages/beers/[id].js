@@ -12,6 +12,7 @@ const Beer = ({ beer }) => {
         </div>
         <div className={s.content}>
           <h1 className={s.title}>{beer.name}</h1>
+          <div className={s.tabline}>{beer.tagline}</div>
           <p>{beer.description}</p>
           <p>abv {beer.abv}</p>
           <ul>
